@@ -6,7 +6,7 @@ if(NOT DEFINED CMAKE_TOOLCHAIN_FILE AND DEFINED ENV{CMAKE_TOOLCHAIN_FILE})
 endif()
 
 # * for my own mac
-list(APPEND CMAKE_PREFIX_PATH  "/Users/marshallchen/code/vcpkg/installed/arm64-osx/share/")
+# list(APPEND CMAKE_PREFIX_PATH  "/Users/marshallchen/code/vcpkg/installed/arm64-osx/share/")
 
 # name of the project It is best to use something different from the exe name
 project(RGBA_build) 
